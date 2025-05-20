@@ -1,4 +1,4 @@
-package Proyecto_Terminado;
+package ProyectoCajeroATM;
 
 
 public class Retiro extends Clase_Abstractaa {

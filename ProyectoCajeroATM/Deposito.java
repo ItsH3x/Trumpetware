@@ -1,6 +1,6 @@
-package Proyecto_Terminado;
+package ProyectoCajeroATM;
 
-import Proyecto.ClasePadre_Abstracta;
+//import Proyecto.ClasePadre_Abstracta;
 
 public class Deposito extends Clase_Abstractaa{
     

@@ -1,4 +1,4 @@
-package Proyecto_Terminado;
+package ProyectoCajeroATM;
 
 import java.util.Scanner;
 public abstract class Clase_Abstractaa {
