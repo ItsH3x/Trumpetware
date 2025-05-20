@@ -1,6 +1,6 @@
 package ProyectoCajeroATM;
 
-//import Proyecto.ClasePadre_Abstracta;
+//import Proyecto.ClasePadre_Abstracta; hola
 
 public class Consulta extends Clase_Abstractaa{
     
