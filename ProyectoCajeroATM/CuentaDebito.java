@@ -3,8 +3,8 @@ package ProyectoCajeroATM;
 public class CuentaDebito extends Cuenta {
     private double limiteDiario;
 
-    public CuentaDebito(int numero_de_cuenta, Cliente cliente, double limiteDiario) {
-        super(numero_de_cuenta, cliente);
+    public CuentaDebito(int numero_de_cuenta, Cliente cliente, double saldo, double limiteDiario) {
+        super(numero_de_cuenta, cliente, saldo);
         this.limiteDiario = limiteDiario;
     }
 
