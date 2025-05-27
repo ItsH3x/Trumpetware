@@ -4,8 +4,9 @@ public class CuentaAhorro extends Cuenta {
     private double tasaInteres;
 
     public CuentaAhorro(int numero_de_cuenta, Cliente cliente, double tasaInteres) {
-        super(numero_de_cuenta, cliente);
+        super(numero_de_cuenta, cliente, tasaInteres);
         this.tasaInteres = tasaInteres;
+        this.tipo = 'A';
     }
 
     public double getTasaInteres() {

@@ -6,6 +6,7 @@ public class CuentaDebito extends Cuenta {
     public CuentaDebito(int numero_de_cuenta, Cliente cliente, double saldo, double limiteDiario) {
         super(numero_de_cuenta, cliente, saldo);
         this.limiteDiario = limiteDiario;
+        this.tipo = 'D';
     }
 
     public double getLimiteDiario() {

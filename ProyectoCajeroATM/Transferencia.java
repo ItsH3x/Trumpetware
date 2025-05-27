@@ -2,7 +2,7 @@ package ProyectoCajeroATM;
 
 public class Transferencia extends Transaccion {
 
-    public Transferencia(String identificador, String fecha, String tipo, double monto) {
+    public Transferencia(int identificador, String fecha, char tipo, double monto) {
         super(identificador, fecha, tipo, monto);
         //TODO Auto-generated constructor stub
     }

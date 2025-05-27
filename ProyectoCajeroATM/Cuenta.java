@@ -4,6 +4,7 @@ public abstract class Cuenta {
     private int numero_de_cuenta;
     private Cliente cliente;
     private double saldo;
+    protected char tipo;
 
     public Cuenta(int numero_de_cuenta, Cliente cliente, double saldo) {
         this.numero_de_cuenta = numero_de_cuenta;
@@ -33,6 +34,14 @@ public abstract class Cuenta {
 
     public void setSaldo(double saldo) {
         this.saldo = saldo;
+    }
+
+    public int getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(char tipo) {
+        this.tipo = tipo;
     }
 
     @Override
